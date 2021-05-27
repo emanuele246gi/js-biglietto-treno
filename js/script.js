@@ -14,15 +14,14 @@ var età = parseInt(prompt('Quanti anni hai?'));
 // operazione prezzo
 var biglietto = 0.21 * km;
 
-
 // if else
 if(età < 18){
-    var minorenne = biglietto - (biglietto * 20) / 100;
+    var scatola = biglietto - (biglietto * 20) / 100;
 } else (età > 65){
-    var over60 = biglietto - (biglietto * 20) / 100;
+    var scatola = biglietto - (biglietto * 40) / 100;
 }
 
 var scatola = biglietto;
 
 // risultato prezzo
-document.getElementById('pippo').innerHTML = scatola;
+document.getElementById('biglietto').innerHTML = scatola;
