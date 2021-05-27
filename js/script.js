@@ -19,8 +19,10 @@ var scatola = biglietto;
 // if else
 if(età < 18){
     scatola = biglietto - (biglietto * 20) / 100;
+    scatola = scatola.toFixed(2);
 } else if(età > 65){
     scatola = biglietto - (biglietto * 40) / 100;
+    scatola = scatola.toFixed(2);
 }
 
 // risultato prezzo
