@@ -16,9 +16,9 @@ var biglietto = 0.21 * km;
 
 // if else
 if(età < 18){
-    var scatola = biglietto - (biglietto * 20) / 100;
+    scatola = biglietto - (biglietto * 20) / 100;
 } else (età > 65){
-    var scatola = biglietto - (biglietto * 40) / 100;
+    scatola = biglietto - (biglietto * 40) / 100;
 }
 
 var scatola = biglietto;
